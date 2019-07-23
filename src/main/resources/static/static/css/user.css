@@ -1,0 +1,191 @@
+/*layui选项卡样式*/
+.layui-tab{
+	margin:0 !important;
+}
+.layui-tab-title{
+	height: 60px !important;
+}
+.layui-tab-content{
+	width: 100%;
+	overflow: hidden;
+}
+.layui-tab-item{
+	overflow: hidden;
+}
+.layui-tab-title li{
+	color: #333;
+	padding-left:36px;
+	line-height: 60px !important;
+}
+.layui-tab-brief>.layui-tab-title .layui-this{
+	color: #333;
+}
+.layui-tab-title .layui-this:after{
+	height: 60px;
+	width: 60%;
+	margin-left: 32px;
+	border-bottom: 3px solid #3299fe !important;
+}
+
+/*left*/
+.left{
+	width: 100%;
+	height: 76%;
+	margin: 20px 0;
+	padding: 10px 20px;
+	padding-bottom: 100%;
+	border: 1px solid #e6e9f0;
+}
+.neirong{
+	width: 100%;
+	height: 38px ;
+	padding-left: 10px;
+	border-radius: 4px;
+	border: 1px solid #e6e9f0;
+}
+.neirong::-webkit-input-placeholder{
+	color: #868686;
+	font-size: 13px;
+}
+.left .form-group img{
+	position: absolute;
+	top: 40px;
+	right: 55px;
+}
+
+/*ztree插件*/
+.tree{
+	/*height: 300px;*/
+}
+.ztree li{
+	padding: 5px 0 !important;
+}
+.ztree li span {
+	font-size: 14px;
+	margin-left: 15px;
+	line-height: 25px !important;
+}
+.ztree li a:hover{
+	text-decoration: none;
+}
+.ztree li span.button{
+	width: 25px !important;
+	height: 25px !important;
+	background-repeat: inherit;
+	background-position: 108px 314px;
+}
+.ztree li span.button.edit{
+	background-position: 1px -72px;
+}
+.ztree li span.button.remove{
+	background-position: -22px -72px;
+}
+.ztree li span.button.ico_close{
+	display: none;
+}
+.ztree li span.button.ico_open{
+	display: none;
+}
+.ztree li span.button.ico_docu{
+	display: none;
+}
+.ztree li a.curSelectedNode{
+	color: #165bb9;
+	border: none !important;
+	background-color: #fff !important;
+}
+
+/*right*/
+.new{
+	width: 95px;
+	height: 36px;
+	color: #fff;
+	float: right;
+	margin: 20px 0;
+	background-color: #3299fe;
+}
+.new:hover{
+	color: #fff;
+}
+.table{
+	text-align: center;
+}
+.table tr th{
+	background: #f4f6f8;
+	text-align: center;
+	font-weight: normal !important;
+}
+.table tr td span a{
+	color: #3299fe;
+	padding: 5px;
+    text-decoration: none;
+}
+a:hover{
+	color: #3299fe;
+    text-decoration: none;
+}
+
+/*模态框*/
+.modal-header{
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	background: #6598dd;
+}
+.modal-body{
+	padding: 40px 60px;
+	padding-bottom: 0px;
+}
+label{
+	margin: 0 26px;
+	font-weight: normal !important;
+}
+.jiguan{
+	margin-left: -15px;
+}
+.form-group{
+	margin-bottom: 20px;
+}
+.form-control{
+	width: 365px;
+	height: 40px;
+	display: inline !important;
+}
+.modal-footer{
+	text-align: center;
+	color: #fff;
+	padding-bottom: 25px;
+	border-top: none !important;
+}
+.btn:hover{
+	color: #fff;
+}
+.qu{
+	width: 86px;
+	height: 36px;
+	font-size: 16px;
+	margin-right:25px;
+	background: #808080;
+	border-radius: 8px;
+}
+.bao{
+	width: 86px;
+	height: 36px;
+	font-size: 16px;
+	margin-left:25px;
+	border-radius: 8px;
+	background: #3299fe;
+}
+
+
+.bottom{
+	float: right;
+	margin-top: 3%;
+}
+.layui-laypage .layui-laypage-curr .layui-laypage-em{
+	background: #4da1ff;
+}
+
+.modal-dialog{
+	margin-top:10% !important;
+}

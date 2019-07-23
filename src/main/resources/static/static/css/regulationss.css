@@ -1,0 +1,145 @@
+*{margin: 0;padding: 0;}
+html,body{height: 100%;width: 100%;font-family: "微软雅黑";}
+ul,li{list-style: none;}
+.clearfix:after{
+	content:'.';
+	clear: both;
+	visibility: hidden;
+	display: block;
+	height: 0;
+}
+.clearfix{zoom:1}
+a:hover,a:focus,a:active{text-decoration: none;}
+
+
+
+.re_head{
+	width: 100%;
+	height: 82px;
+	/*background: #1f6ec8;*/
+}
+.re_title{
+	width: 100%;
+	text-align: center;
+	line-height: 60px;
+	vertical-align: middle;
+	position: relative;
+}
+.re_titlespan{
+	color: #333333;
+	font-size: 14px;
+	padding-left: 38px;
+	position: absolute;
+	left: 0;
+}
+.re_titlespan2{	
+	color: #fca72c;
+	font-size: 14px;
+}
+.re_tab{
+	width: 100%;
+	border-bottom: 1px solid #e6e9f0;
+	line-height: 60px;
+	box-sizing: border-box;
+}
+.re_tab ul{
+	margin-left: 38px;
+}
+.re_tab ul li{
+	float: left;
+	margin-right: 50px;
+	color: #333333;
+	font-size: 14px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+.re_tabact{
+	border-bottom: 3px solid #3299fe;
+}
+.re_detil{
+	width: 100%;
+}
+.re_detil_left{
+	width: 22.6%;
+	float: left;
+	font-size: 14px;
+	color: #333;
+}
+.re_detil_right{
+	float: right;
+	width: 77.4%;
+	border-left:1px solid #e6e9f0;
+	box-sizing: border-box;
+}
+.re_detil_type{
+	padding: 30px;
+}
+.re_detil_typet{
+	width: 25%;
+	float: left;
+	line-height: 28px;
+}
+.re_detil_labell{
+	width: 75%;
+	float: left;
+}
+.labell{
+	padding: 5px 18px;
+	border: 1px solid #3299fe;
+	background: #f4f6f8;
+	color: #3299fe;
+	font-size: 12px;
+	border-radius: 20px;
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+.labell img{
+	padding-left: 8px;
+	cursor: pointer;
+}
+.re_detil_checked{
+	padding: 0px 30px 30px 30px;
+}
+.re_detil_right ul{
+	width: 100%;
+}
+.detil_law{
+	color: #333333;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.detil_law:hover{
+	color: #165bb9;
+}
+.re_detil_right ul li{
+	padding: 30px 0;
+	margin: 0 30px;
+	border-bottom: 1px dashed #e6e9f0;
+}
+.detil_li{
+	padding-bottom: 23px;
+}
+.detil_li2{
+	font-size: 14px;
+	color: #333;
+	line-height: 25px;
+}
+.re_detilbutton{
+	text-align: center;
+	padding: 32px 0 55px 0;
+}
+.button{
+	padding: 8px 10px;
+	background: #3299fe;
+	color: #fff;
+	font-size: 14px;
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.button:hover{
+	background: #165bb9;
+}

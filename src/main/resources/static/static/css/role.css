@@ -1,0 +1,141 @@
+
+/*layui选项卡样式*/
+.layui-tab{
+	margin:0 !important;
+}
+.layui-tab-title{
+	height: 60px !important;
+}
+.layui-tab-title li{
+	color: #333;
+	padding-left:36px;
+	line-height: 60px !important;
+}
+.layui-tab-brief>.layui-tab-title .layui-this{
+	color: #333;
+}
+.layui-tab-title .layui-this:after{
+	height: 60px;
+	width: 60%;
+	margin-left: 32px;
+	border-bottom: 3px solid #3299fe !important;
+}
+
+.layui-tab-content{
+	margin: 0 10%;
+}
+.new{
+	width: 95px;
+	height: 36px;
+	color: #fff;
+	float: right;
+	margin: 20px 0;
+	background-color: #3299fe;
+}
+.new:hover{
+	color: #fff;
+}
+.table{
+	text-align: center;
+}
+.table tr th{
+	background: #f4f6f8;
+	text-align: center;
+	font-weight: normal !important;
+}
+.table tr td span a{
+	color: #3299fe;
+	padding: 5px;
+    text-decoration: none;
+}
+a:hover{
+	color: #3299fe;
+    text-decoration: none;
+}
+
+.bottom{
+	float: right;
+	margin-top: 3%;
+}
+.layui-laypage .layui-laypage-curr .layui-laypage-em{
+	background: #4da1ff;
+}
+
+/*模态框样式*/
+.modal-header{
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	background: #7ca6dd;
+}
+.modal-body{
+	padding: 25px 35px;
+	padding-bottom: 0px;
+}
+label{
+	font-weight: normal;
+}
+.control-label{
+	vertical-align: middle !important;
+}
+.form-control{
+	width: 365px;
+	height: 40px;
+	display: inline;
+	margin-left: 10px;
+}
+.beizhu{
+	margin-left:7%;
+}
+.juese{
+	margin-left: 10px;
+}
+.form-group tr td span{
+	color:#868686;
+}
+.form-group .table tr th{
+	background: #fff !important;
+}
+.form-group .table tr td{
+	background: #fff !important;
+}
+.form-group .table tr td:last-child{
+	text-align: left;
+	padding:0 20px;
+	vertical-align: middle;
+}
+.form-group .table tr td span{
+	margin-left: 10px;
+}
+.pinggu{
+	margin-left: 14.5% !important;
+}
+.modal-footer{
+	text-align: center;
+	color: #fff;
+	padding-bottom: 25px;
+	border-top: none !important;
+}
+.btn:hover{
+	color: #fff;
+	
+}
+.qu{
+	width: 86px;
+	height: 36px;
+	font-size: 16px;
+	margin-right:25px;
+	border-radius: 8px;
+	background: #808080;
+}
+.bao{
+	width: 86px;
+	height: 36px;
+	font-size: 16px;
+	margin-left:25px;
+	border-radius: 8px;
+	background: #3299fe;
+}
+.modal-dialog{
+	margin-top:5% !important;
+}

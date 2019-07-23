@@ -1,0 +1,97 @@
+
+@media screen and (max-width: 1920px) {
+	.bottom{
+		width: 31%;
+		height:auto;
+		margin: auto;
+		margin-top: 5%;
+		text-align: right;
+	}
+}
+@media screen and (max-width: 1440px) {
+	.bottom{
+		width: 31%;
+		height: auto;
+		margin: auto;
+		margin-top: 6%;
+		text-align: right;
+	}
+}
+
+@media screen and (max-width: 1366px) {
+	.bottom{
+		width: 32%;
+		height: auto;
+		margin: auto;
+		text-align: right;
+	}
+	.anniu{
+		margin-top: 0px !important;
+		padding-bottom: 0px !important;
+	}
+}
+
+.bottom p{
+	padding-bottom: 4%;
+}
+.bottom p span{
+	color: red;
+}
+label{
+	color: #333;
+	font-weight: normal !important;
+	font-size: 16px;
+	padding-right: 20px;
+	letter-spacing: 2px;
+}
+input{
+	width: 71%;
+	height: 42px;
+	border-radius: 5px;
+	padding: 0 10px;
+	border: 1px solid #d7dde4;
+}
+input::-webkit-input-placeholder{
+	font-size: 14px;
+     color: #868686;
+}
+select{
+	width: 71%;
+	height: 42px;
+	color: #333;
+	border-radius: 5px;
+	padding: 0 10px;
+	border: 1px solid #d7dde4;
+}
+
+.anniu{
+	width:71%;
+	float: right;
+	text-align: left;
+	margin-top: 3%;
+}
+.anniu button{
+	margin: 0 10px;
+}
+.next{
+	color: #fff;
+	outline: 0 !important;
+	background: #ccc;
+	font-size: 16px;
+	border-radius: 6px;
+	margin-left: 0 !important; 
+}
+.next:hover{
+	color: #fff;
+}
+.jump{
+	color: #3299fe;
+	outline: 0 !important;
+	background: #fff;
+	border-radius: 6px;
+	border-color: #3299fe;
+}
+.jump:hover{
+	color: #fff;
+	background: #3299fe;
+}

@@ -1,0 +1,79 @@
+.bottom{
+	width: auto;
+	height: auto;
+	margin: 1.5% 2%;
+}
+.pinggu{
+	color: #fff;
+	float: right;
+	background: #3299fe;
+	position:fixed;
+	top:289px; 
+	right:80px;
+}
+.pinggu:hover{
+	color: #fff;
+}
+.zhiliang{
+	height:45px;
+	border-bottom: 1px dashed #e6e9f0;
+}
+.zhiliang span{
+	color: #165bba;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.daibu{
+	color: #3299fe;
+	font-size: 14px;
+	margin: 20px 0;
+}
+.budaibu{
+	color: #3299fe;
+	font-size: 14px;
+	margin: 20px 0;
+}
+
+/*table*/
+.table{
+	width: 97%;
+	color: #333;
+	margin: 20px auto;
+}
+td img{
+	cursor: pointer;
+}
+th:first-child{
+	width: 687px;
+}
+td:first-child{
+	width: 687px;
+}
+.table th{
+	padding-left: 15px !important;
+	background: #f4f6f8;
+	font-weight: normal;
+}
+.table tr td{
+	padding-left: 15px !important;
+	vertical-align: middle !important;
+}
+.input{
+	width: 10%;
+	color: #fca72c;
+	border: none;
+	text-align: center;
+}
+.idear{
+	width: 100%;
+	border: none;
+}
+
+/*返回顶部*/
+.scroll {
+    position:fixed; bottom:70px; right:20px;
+}
+.scrollItem {
+    cursor:pointer; text-align:center; padding-top:10px;
+}

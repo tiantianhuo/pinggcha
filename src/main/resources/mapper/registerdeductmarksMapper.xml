@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.pincha.dao.registerdeductmarksdao">
+    <insert id="insert" >
+        INSERT INTO registerdeductmarks(
+		id,
+        registerid,
+        deductmarks,
+        deductreson,
+        pcxid,
+        type
+		) VALUES
+		(
+		#{id},
+		#{registerid},
+		#{deductmarks},
+		#{deductreson},
+		#{pcxid},
+		#{type}
+		)
+    </insert>
+	<select id="findone" resultType="pinchaxiang">
+		select
+		b.id as "id",
+		b.pcxcontent as "pcxcontent",
+		b.score as "score",
+		b.pcx as "pcx",
+		b.pcxsort as "pcxsort",
+		b.type as "type",
+		a.registerid as "registerid",
+		a.deductmarks as "deductmarks",
+		a.deductreson as "deductreson"
+		from registerdeductmarks a left join pinchaxiang b on a.pcxid=b.id where registerid=#{id}
+	</select>
+
+</mapper>

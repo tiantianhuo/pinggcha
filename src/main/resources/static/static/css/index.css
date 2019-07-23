@@ -1,0 +1,240 @@
+.navbar-nav > li{
+	float: initial !important;
+}
+.col-md-10{
+	height:inherit;
+	padding: 0 !important;
+}
+.col-md-2{
+	height:inherit;
+	padding: 0 !important;
+}
+/*内容 left*/
+.content{
+	background: linear-gradient(to bottom, #1bb3eb, #ffffff);
+}
+
+ul{
+	margin-bottom: 4% !important;
+	list-style: none;
+}
+
+/*.left_a样式*/
+.left{
+	
+}
+.left_a{
+	width:1000px;
+	display: flex;
+	margin: auto;
+	}
+.left_a li{
+	float: left;
+	width:290px;
+	height: 240px;
+	background-color: #fff;
+	border-radius: 20px;
+	text-align: center;
+	margin-right:11%;
+	box-shadow: 0px 4px 12px rgb(39,57,98,0.3);
+	cursor: pointer;
+}
+.left_li{
+	margin-right: 0 !important;
+}
+.left_a li div{
+	width: 100%;
+	height: 223px;
+	padding: 42px 0px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.li1{
+	margin-left: 0;
+	background: linear-gradient(to bottom, #0093ff, #0075f9);
+}
+.li1 span{
+	padding-top: 41px;
+}
+.li2{
+    background: linear-gradient(to bottom, #90d070, #79ae59);
+}
+.li2 span{
+	padding-top: 25px;
+}
+.li3{
+   background: linear-gradient(to bottom, #fad166, #d7aa33);
+}
+.li3 span{
+	padding-top: 35px;
+}
+ .left ul li span{
+	display: block;
+	font-family: "黑体";
+	font-size: 30px;
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+/*.left_b样式*/
+.left_b{
+	width: 1000px;
+	margin: auto;
+	display: flex;
+}
+.left_b li{
+	float: left;
+	width:290px;
+	height: 240px;
+	background-color: #fff;
+	border-radius: 20px;
+	text-align: center;
+	margin-right:11%;
+	box-shadow: 0px 4px 12px rgb(39,57,98,0.3);
+	cursor: pointer;
+}
+.left_b li div{
+	width: 100%;
+	height: 223px;
+	padding: 42px 0px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.li4{
+	background: linear-gradient(to bottom, #00d3de, #01bbcb);
+}
+.li4 span{
+	padding-top: 30px;
+}
+.li5{
+    background: linear-gradient(to bottom, #04b6fa, #04a2db);
+}
+.li5 span{
+	padding-top: 27px;
+}
+.li6{
+   background: linear-gradient(to bottom, #f58a80, #d1675d);
+}
+.li6 span{
+	padding-top: 26px;
+}
+
+/*内容 right*/
+.right{
+	width: 120px;
+	height: 531.07px;
+	text-align: center;
+	border-radius: 10px;
+	border: 2px solid #d7d7d7;
+	background:linear-gradient(to right, #fff, #c6cacc);
+}
+.right ul li{
+	border-bottom: 4px solid #0090fe;
+    margin: 6px 8px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+.right ul li span{
+	display: block;
+	font-family: "黑体";
+	font-size: 20px;
+	color: #333;
+	padding-top: 17px;
+}
+.right ul li img{
+	width: 55%;
+}
+
+.more{
+	border-bottom: none !important;
+	padding-bottom: 0px !important;
+}
+/*模态框样式*/
+.col-md-6{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.modal_ul{
+	text-align: center;
+	margin: 9% 11%;
+}
+.modal_ul li{
+	padding: 10px;
+}
+.modal_ul img{
+	width: 80%;
+}
+.modal-body{
+	padding: 0px !important;
+}
+.modal-content{
+	width: 100%;
+	/*margin-top: 23% !important;*/
+	border-radius: 20px!important;
+}
+.tupian{
+	margin: 6%;
+}
+.touxiang{
+	width: 284px;
+	height: 284px;
+	margin-top: 12%;
+}
+.modal-footer{
+	cursor: pointer;
+	border-top: none !important;
+}
+.modal-footer p{
+	float: left;
+	color: #0c80e2;
+	font-size: 18px;
+	
+}
+.modal-footer p img{
+	margin-top: -6px;
+	margin-right: 12px;
+}
+.modal-footer p span{
+	font-family: "黑体" !important;
+}
+.input-group{
+	width: 100%;
+}
+.input-group-addon{
+	/*padding: 0px !important;*/
+	padding-left: 6px !important;
+	background-color: #fff !important;
+	border-bottom-left-radius:20px !important;
+	border-top-left-radius: 20px !important;
+}
+.input-group-addon img{
+	padding-left: 6px;
+}
+.form-control{
+	height: 35px !important;
+	padding-left: 0px !important;
+	border-left: none !important;
+	border-top-right-radius: 20px !important;
+	border-bottom-right-radius: 20px !important;
+}
+.check{
+	text-align: left !important;
+	display: flex;
+	font-size: 14px;
+	font-family: "宋体" !important;
+	color: #989898;
+}
+.modal_ul li span{
+	margin-left: 5px;
+}
+.denglu{
+	width: 100%;
+	height: 35px !important;
+	color: #fff;
+	font-size: 18px;
+	border: thin;
+	outline: thin;
+	border-radius: 20px !important;
+	background-color: #0c80e2;
+	/*font-family: "微软雅黑" !important;*/
+}

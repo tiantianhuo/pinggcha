@@ -1,0 +1,106 @@
+
+.fenxi{
+	height: 40px;
+	margin: 0 35px;
+	border-bottom: 1px dashed #e6e9f0;
+}
+.re_Sentencing{
+	width: 100%;
+	padding: 35px;
+	padding-bottom: 20px;
+}
+
+.re_SentForecast{
+	color: #333333 ;
+	font-size: 14px;
+}
+.re_Sentimp{
+	color: #FCA72C;
+	font-size: 26px;
+	font-weight: bold;
+	margin-left: 15px;
+}
+.re_Range{
+	margin-left: 52px;
+}
+.re_Sentbtn{
+	float: right;
+	margin-right: 30px;
+	
+}
+.re_Sentbtn button{
+	padding: 10px 15px ;
+	font-size: 14px;
+	border-radius: 5px;
+}
+.Gen_ins{
+	color: #fff;
+	background: #3299fe;
+	border: 0;
+}
+.Re_predict{
+	color: #3299fe;
+	border: 1px solid #3299fe;
+	background: #f4f6f8;
+	box-sizing: border-box;
+	margin-left: 40px;
+}
+.re_see{
+	margin-top: 10px;
+}
+.re_see span{
+	color: #3299fe;
+	font-size: 13px;
+	cursor: pointer;
+}
+/*模态框*/
+.modal-header{
+	background: #6598dd;
+	color:#fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+.modal-body{
+	padding-bottom: 50px;
+}
+.closeimg{
+	float: right;
+	cursor: pointer;
+	margin-top: 5px;
+}
+.modal_plottltp{
+	margin: 30px 0 30px 40px;
+}
+.modal_plotbox{
+	margin-left: 40px;
+}
+
+
+
+/*echarts柱状图*/
+.re_mapbox{
+	margin: 20px 2.5%;
+}
+.re_mapright{
+	float: left;
+	width: 49.5%;
+	border: 1px solid #e6e9f0;
+	/*margin-left: 35px;*/
+}
+.re_mapright p{
+	width: 100%;
+	padding: 22px 0 22px 28px;
+	color: #333;
+	font-size: 14px;
+	border-bottom: 1px solid #e6e9f0;;
+}
+.Plusorminus,.Termimpris{
+	width: 90%;
+	margin: 0 auto 30px auto;
+	height: 300px;
+}
+
+
+.modal-dialog{
+	margin-top:10% !important;
+}

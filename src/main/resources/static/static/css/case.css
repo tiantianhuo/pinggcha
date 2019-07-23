@@ -1,0 +1,53 @@
+.detil_opbox{
+	padding: 26px 24px;
+}
+.re_clear{
+	float: right;
+	color: #3299fe;
+	font-size: 13px;
+	cursor: pointer;
+	line-height: 38px;
+}
+.detil_opbox select,.detil_screen select{
+	border-radius: 3px;
+	width: 16%;
+	height: 38px;
+	padding: 0 10px;
+	margin-right: 15px;
+	border: 1px solid #e6e9f0;
+	appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url(../img/regulations/op_roow.png) 95% center no-repeat;
+}
+.detil_screen{
+	color: #868686;
+	font-size: 14px;
+}
+.detil_screendate{
+	margin:0 24px;
+}
+.screen_input{
+	width:220px;
+	margin-bottom: 3px;
+	background: url(../img/regulations/op_roow.png) 95% center no-repeat;
+}
+.labell2{
+	padding: 5px 18px;
+    border: 1px solid #f98e86;
+    background: #f7f2f3;
+    color: #f98e86;
+    font-size: 12px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.detil_plot{
+	margin-right: 15px;
+}
+.re_detilbutton2{
+	margin: 14px 0 17px 0;
+	text-align: center;
+}

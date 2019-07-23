@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>评查结果分析</title>
+		<link rel="stylesheet" type="text/css" href="../../static/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="../../static/css/jquery.step.css"/>
+		<link rel="stylesheet" type="text/css" href="../../static/layui/css/layui.css"/>
+		<link rel="stylesheet" type="text/css" href="../../static/vonder/font_7grt4on8i7d/iconfont.css" media="all">
+		<link rel="stylesheet" type="text/css" href="../../static/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../../static/css/regulationss.css" />
+		<link rel="stylesheet" type="text/css" href="../../static/css/analysiss.css" />
+
+		<script src="../../static/js/jquery.min.js" type="text/javascript"></script>
+		<script src="../../static/js/jquery.step.min.js" type="text/javascript"></script>
+
+	    <script src="../../static/js/bootstrap.min.js" type="text/javascript"></script>
+	    <script src="../../static/layui/layui.all.js" type="text/javascript"></script>
+	    <script type="text/javascript" src="../../static/js/echarts.js" ></script>
+		<script src="../../static/js/common.js" type="text/javascript"></script>
+
+	</head>
+	<body>
+		<header class="re_head">
+			<nav class="navbar nav-top">
+		      <div class="navbar-header">
+		        <img src="../../static/img/header/logos.png" class="guohui"/>
+		        <div class="titlebox clearfix">
+		        	<span class="titletop">智能评查辅助系统</span>
+		        </div>
+		      </div>
+		      <div class="navbar-right">
+		        <li class="dropdown">
+				    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+				        <span>太原市万柏林区人民检察院，</span>
+				        <span>周勤</span>
+				        <img src="../../static/img/header/xiala.png" alt="" />
+				    </a>
+				    <ul class="dropdown-menu user-center-pop">
+						<li><a href="#"><i class="iconfont icon-shezhi"></i>配置管理</a></li>
+						<li><a href="#"><i class="iconfont icon-jikediancanicon03-copy"></i>用户管理</a></li>
+						<li><a href="#" class="righta"><i class="iconfont icon-tuichu1"></i>退出登录</a></li>
+					</ul>                
+				</li>
+		      </div>
+		    </nav>	
+		</header>
+		<div class="wrapper">
+		  	<!--内容开始-->
+		  	<div class="content">
+		  	  <div class="title">
+		  	  	智能评查辅助系统
+		  	  </div>
+		  	  <div class="progress">
+		  	  	<div class="main">
+					<div id="step">
+							<div class="ui-step-wrap">
+								<div class="ui-step-bg"></div>
+								<div class="ui-step-progress"></div>
+								<ul class="ui-step">
+									<li class="ui-step-item active">
+										<div class="ui-step-item-num aleft">
+											<a href="../dengji/dengji.html"><span>1</span></a>
+										</div>
+										<div class="ui-step-item-title lefts">评查登记</div>
+									</li>
+									<li class="ui-step-item">
+										<div class="ui-step-item-num">
+											<a href="../PlotSelections/PlotSelections.html" class="btn1"><span>2</span></a>
+										</div>
+										<div class="ui-step-item-title">评查情节分析</div>
+									</li>
+									<li class="ui-step-item">
+										<div class="ui-step-item-num aright">
+											<a href="../Resultanalysiss/analysiss.html" class="btn2"><span>3</span></a>
+										</div>
+										<div class="ui-step-item-title rights">评查结果分析</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					
+				</div>
+		  	  </div> 	
+		  	  <!--你的代码开始-->
+				<div class="fenxi clearfix">
+				    分析结果
+				</div>
+				<div class="re_Sentencing">
+					<div class="re_SentForecast">
+						<span>经系统评估分值：</span>
+						<span class="re_Sentimp" id='tit'></span>
+						<input id="1" type="text" hidden ng-value="map['1']">
+						<span  hidden ng-value="">{{map['1']}}</span>
+						<span id="2" hidden ng-value="">{{map['2']}}</span>
+					</div>
+					<div class="re_see">
+						<span data-toggle="modal" data-target=".modal_plot">查看评查分析情节 </span>
+					</div>
+				</div>
+				<div class="re_mapbox clearfix">
+					<div class="re_mapright">
+						<p>评查结果分析</p>
+						<div id="Termimpris" class="Termimpris"></div>
+					</div>
+				</div>
+		  	  <!--你的代码结束-->
+		  	</div>
+	    <!--footer开始-->
+	  	<footer>
+	  	    山西省太原市万柏林区万新商务702室&nbsp;&nbsp;&nbsp; 北京中检旭风科技发展有限责任公司版权所有
+	  	</footer>
+	  	<!--footer结束-->
+	  </div>
+	  <!--wrapper结束-->
+	   <!-- 量刑情节模态框 -->
+		<div class="modal fade modal-new modal_plot" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+			        	<span>评估情节</span>
+			        	<img src="../../static/img/regulations/model_close.png" alt="" class="closeimg"  aria-label="Close" data-dismiss="modal" />
+			      	</div>
+					<div class="modal-body">
+						<p class="modal_plottltp">您待提高的情节</p>
+						<div class="modal_plotbox">
+						    <span class="labell">其他情形</span>
+							<span class="labell">不批准逮捕理由说明</span>
+							<span class="labell">排除非法证据</span>
+							<span class="labell">犯罪嫌疑人姓名</span>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+      <!--量刑情节模态框 结束-->
+
+	</body>
+</html>
+<script>
+
+	/*echarts*/
+	var myChart2 = echarts.init(document.getElementById( 'Termimpris'));
+	//获取url中的参数
+	function getUrlParam(name) {
+		var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+		var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+		if (r != null) return unescape(r[2]); return null; //返回参数值
+	}
+	var xx = getUrlParam('registerid');
+	var anjian=1;
+	var wenshu=2;
+	$.post("../../pingeresult",{xx},function (date) {
+			anjian=date["1"];
+			wenshu=date["2"];
+		$("#tit").html(anjian+wenshu);
+		myChart2.setOption({
+			tooltip : {
+				trigger: 'axis',
+				axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+					type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+				}
+			},
+			grid: {
+				bottom: '3%',
+				containLabel: true,
+				borderColor: '#e6e9f0',
+			},
+			xAxis : [
+				{
+					type : 'category',
+					name: '',
+					splitLine:{show: true},
+					textBorderColor :'#e6e9f0',
+					data : ['案件质量', '文书质量' ],
+					axisTick: {
+						alignWithLabel: true
+					},
+					axisLine: {
+						lineStyle: {
+							type: 'solid',
+							color: '#868686',//左边线的颜色
+							width:'1'//坐标线的宽度
+						}
+					},
+					axisLabel: {
+						textStyle: {
+							color: '#868686',//坐标值得具体的颜色
+							size: '12px',
+						}
+					}
+
+				}
+			],
+			yAxis : [
+				{
+					type : 'value',
+					name: '',
+					textBorderColor :'#e6e9f0',
+					axisLine: {
+						lineStyle: {
+							type: 'solid',
+							color: '#868686',//左边线的颜色
+							width:'1'//坐标线的宽度
+						}
+					},
+					axisLabel: {
+						textStyle: {
+							color: '#868686',//坐标值得具体的颜色
+							size: '12px',
+						}
+					},
+					data: ['0','15','30','45',]
+				}
+			],
+			series : [
+				{
+					name:'',
+					type:'bar',
+					barWidth: '40%',
+					itemStyle: {
+						normal: {
+							// 随机显示
+							//color:function(d){return "#"+Math.floor(Math.random()*(256*256*256-1)).toString(16);}
+
+							// 定制显示（按顺序）
+							color: function(params) {
+								var colorList = ['#ffd569','#01b7ff','#f98e86','#8bd36f','#02d8e3', '#B74AE5','#0AAF9F','#E89589','#16A085','#4A235A','#C39BD3 ','#F9E79F','#BA4A00','#ECF0F1','#616A6B','#EAF2F8','#4A235A','#3498DB' ];
+								return colorList[params.dataIndex]
+							}
+						},
+					},
+					data:[anjian, wenshu, 39, 25,]
+				}
+
+			]
+		});
+
+		//流程条
+		var $step = $("#step");
+		var $index = $("#index");
+
+		$step.step({
+			index: 2,
+			time: 500,
+			title: ["评查登记", "评查情节分析", "评查结果分析"]
+		});
+
+		$index.text($step.getIndex());
+
+		$(".next").on("click", function() {
+			$step.nextStep();
+			$index.text($step.getIndex());
+		});
+		$(".btn1").on("click", function() {
+			$step.toStep(1);
+			$index.text($step.getIndex());
+		});
+
+		$(".btn2").on("click", function() {
+			$step.toStep(2);
+			$index.text($step.getIndex());
+		});
+	})
+
+
+	
+</script>
